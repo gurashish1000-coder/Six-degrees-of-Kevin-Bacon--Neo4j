@@ -1,1 +1,1 @@
-# Six-degrees-of-Kevin-Bacon--Neo4j
+# Six-degrees-of-Kevin-Bacon-Neo4j
