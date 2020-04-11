@@ -123,9 +123,9 @@ actorId: string
 
 #### Response: 
 
-- 200 OK for a successful add 
-- 400 BAD REQUEST if the request body is improperly formatted or missing required information 
-- 500 INTERNAL SERVER ERROR if save or add was unsuccessful (Java Exception is thrown)
+- `200 OK` for a successful add 
+- `400 BAD REQUEST` if the request body is improperly formatted or missing required information 
+- `500 INTERNAL SERVER ERROR` if save or add was unsuccessful (Java Exception is thrown)
 
 ### 2. PUT /api/v1/addMovie
 
@@ -149,9 +149,9 @@ movieId: string
 
 #### Response: 
 
-- 200 OK for a successful add 
-- 400 BAD REQUEST if the request body is improperly formatted or missing required information 
-- 500 INTERNAL SERVER ERROR if save or add was unsuccessful (Java Exception is thrown)
+- `200 OK` for a successful add 
+- `400 BAD REQUEST` if the request body is improperly formatted or missing required information 
+- `500 INTERNAL SERVER ERROR` if save or add was unsuccessful (Java Exception is thrown)
 
 ### 3. PUT /api/v1/addRelationship
 
@@ -175,10 +175,10 @@ movieId: string
 
 #### Response: (no response body)
 
-- 200 OK for a successful add 
-- 400 BAD REQUEST if the request body is improperly formatted or missing required information 
-- 404 NOT FOUND if the actors or movies do not exist when adding a relationship
-- 500 INTERNAL SERVER ERROR if save or add was unsuccessful (Java Exception is thrown)
+- `200 OK` for a successful add 
+- `400 BAD REQUEST` if the request body is improperly formatted or missing required information 
+- `404 NOT FOUND` if the actors or movies do not exist when adding a relationship
+- `500 INTERNAL SERVER ERROR` if save or add was unsuccessful (Java Exception is thrown)
 
 ### 4. GET /api/v1/getActor
 
@@ -200,10 +200,10 @@ actorId: string
 
 #### Response: 
 
-- 200 OK for a successful add 
-- 400 BAD REQUEST if the request body is improperly formatted or missing required information 
-- 404 NOT FOUND  if there is no actor in the database that exists with that actorId
-- 500 INTERNAL SERVER ERROR if save or add was unsuccessful (Java Exception is thrown)
+- `200 OK` for a successful add 
+- `400 BAD REQUEST` if the request body is improperly formatted or missing required information 
+- `404 NOT FOUND`  if there is no actor in the database that exists with that actorId
+- `500 INTERNAL SERVER ERROR` if save or add was unsuccessful (Java Exception is thrown)
 
 #### Response Body Parameter Types: 
 
@@ -250,10 +250,10 @@ movieId: string
 
 #### Response: 
 
-- 200 OK for a successful add 
-- 400 BAD REQUEST if the request body is improperly formatted or missing required information 
-- 404 NOT FOUND  if there is no movie in the database with the requested movieId
-- 500 INTERNAL SERVER ERROR if save or add was unsuccessful (Java Exception is thrown)
+- `200 OK` for a successful add 
+- `400 BAD REQUEST` if the request body is improperly formatted or missing required information 
+- `404 NOT FOUND`  if there is no movie in the database with the requested movieId
+- `500 INTERNAL SERVER ERROR` if save or add was unsuccessful (Java Exception is thrown)
 
 #### Response Body Parameter Types: 
 
@@ -302,10 +302,10 @@ movieId: string
 
 #### Response: 
 
-- 200 OK for a successful add 
-- 400 BAD REQUEST if the request body is improperly formatted or missing required information 
-- 404 NOT FOUND  if the actorId or movieId doesn’t exist in the database
-- 500 INTERNAL SERVER ERROR if save or add was unsuccessful (Java Exception is thrown)
+- `200 OK` for a successful add 
+- `400 BAD REQUEST` if the request body is improperly formatted or missing required information 
+- `404 NOT FOUND`  if the actorId or movieId doesn’t exist in the database
+- `500 INTERNAL SERVER ERROR` if save or add was unsuccessful (Java Exception is thrown)
 
 #### Response Body Parameter Types: 
 
