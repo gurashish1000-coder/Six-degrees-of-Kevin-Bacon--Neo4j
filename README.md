@@ -62,7 +62,7 @@ To test the endpoints I used Postman.
 - Enter in your request body data into the test box 
 - Click Send 
 
-![](C:\Users\guras\Pictures\postman.PNG)
+<img src="images/postman.PNG"  >
 
 
 
