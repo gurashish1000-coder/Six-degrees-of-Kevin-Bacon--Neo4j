@@ -153,7 +153,7 @@ movieId: string
 - 400 BAD REQUEST if the request body is improperly formatted or missing required information 
 - 500 INTERNAL SERVER ERROR if save or add was unsuccessful (Java Exception is thrown)
 
-### PUT /api/v1/addRelationship
+### 3. PUT /api/v1/addRelationship
 
 Adds a relationship between a movie node and an actor node. We will assume that each movie is acted by at least one actor.
 
@@ -180,7 +180,7 @@ movieId: string
 - 404 NOT FOUND if the actors or movies do not exist when adding a relationship
 - 500 INTERNAL SERVER ERROR if save or add was unsuccessful (Java Exception is thrown)
 
-### GET /api/v1/getActor
+### 4. GET /api/v1/getActor
 
 Gets actor id, name, and all the movies they have acted in. We should assume Kevin Bacon is in the database.
 
@@ -230,7 +230,7 @@ movies: list of strings
 
 
 
-### GET /api/v1/getMovie
+### 5. GET /api/v1/getMovie
 
 Gets the movie id, name, and all actors that acted in it.
 
@@ -280,7 +280,7 @@ actors: list of strings
 
 
 
-### GET /api/v1/hasRelationship
+### 6. GET /api/v1/hasRelationship
 
 Returns the boolean value of if an actor has acted in the movie. true if they have, false if they haven’t.
 
@@ -327,7 +327,7 @@ hasRelationship: boolean
 
 
 
-### GET /api/v1/computeBaconNumber
+### 7. GET /api/v1/computeBaconNumber
 
 Returns the Bacon Number of given actor. If you compute the BaconNumber of Kevin Bacon himself, you should return 0.
 
@@ -368,7 +368,7 @@ baconNumber: string
 
 
 
-### GET /api/v1/computeBaconPath
+### 8. GET /api/v1/computeBaconPath
 
 Returns the shortest Bacon Path in order from actor given to Kevin Bacon. 
 
